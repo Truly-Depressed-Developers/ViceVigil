@@ -15,7 +15,7 @@ interface DataStatistics {
 
 export const StatisticsChart: React.FC<DataStatistics> = (statProps: DataStatistics) => {
     return (
-        <Paper sx={{ width: "100%", height: 300, padding: 1 }} elevation={2}>
+        <Paper sx={{ width: "100%", height: 250, padding: 1 }} elevation={2}>
             <Typography>{statProps.name}</Typography>
             <BarChart
                 xAxis={[{ scaleType: 'band', data: statProps.chartData.xAxis }]}

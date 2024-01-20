@@ -1,5 +1,5 @@
 const Page: React.FC = () => {
-  return(
+  return (
     <div>Main page</div>
   );
 }

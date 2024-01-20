@@ -1,0 +1,13 @@
+.navbar {
+  height: 32px;
+  background-color: gray;
+  display: flex;
+
+
+  .item {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,6 +1,6 @@
 const Page: React.FC = () => {
   return(
-    <div>Main page</div>
+    <div>Articles page</div>
   );
 }
 

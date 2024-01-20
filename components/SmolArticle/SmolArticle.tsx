@@ -1,4 +1,4 @@
-import styles from "./Article.module.scss";
+import styles from "./SmolArticle.module.scss";
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -6,15 +6,10 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import ISmolArticle from "@/interfaces/ISmolArticle";
+import Link from '@mui/material/Link';
 
-type articleDataProps = {
-    id: number,
-    title: string,
-    preview: string,
-    photoID: string,
-}
-
-export const Article: React.FC<articleDataProps> = (articleData: articleDataProps) => {
+export const SmolArticle: React.FC<ISmolArticle> = (articleData: ISmolArticle) => {
     return (
         <div className={styles.article}>
             <Card sx={{ maxWidth: 345 }}>
@@ -32,8 +27,7 @@ export const Article: React.FC<articleDataProps> = (articleData: articleDataProp
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small">Share</Button>
-                    <Button size="small">Learn More</Button>
+                    <Button size="small"><Link href={"/articles/" + articleData.id}>Learn More</Link></Button>
                 </CardActions>
             </Card>
         </div>

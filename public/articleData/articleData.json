@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Title",
+        "photoID": "2137",
+        "preview": "This is some simple text, that has to be cropped out so it's not the longest preview article in the world",
+        "link": "https://www.cleanrecoverycenters.com/addiction-why-cant-they-just-stop/"
+    },
+    {
+        "id": 2,
+        "title": "Title",
+        "photoID": "69",
+        "preview": "This is some simple text, that has to be cropped out so it's not the longest preview article in the world",
+        "link": "https://www.helpguide.org/harvard/how-addiction-hijacks-the-brain.htm"
+    },
+    {
+        "id": 3,
+        "title": "Title",
+        "photoID": "69",
+        "preview": "This is some simple text, that has to be cropped out so it's not the longest preview article in the world.",
+        "link": "https://recoverycarepartner.com/overcoming-addiction-difficult/"
+    }
+]

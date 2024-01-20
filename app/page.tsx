@@ -1,12 +1,18 @@
 'use client'
-import { Statistics } from '@/components/Statistics/Statistics';
-import { StatusBar } from '@/components/StatusBar/StatusBar';
+import { QuoteBar } from '@/components/Main/QuoteBar/QuoteBar';
+import { Statistics } from '@/components/Main/Statistics/Statistics';
+import { StatusBar } from '@/components/Main/StatusBar/StatusBar';
 import { Box } from '@mui/material';
-import React from 'react';
+import React, { useState } from 'react';
 // import { useState } from 'react';
 
+const quoteData = [
+  '"Sukces to suma małych wysiłków, powtarzanych dzień po dniu."',
+  '"text2"'
+]
 
 const Page: React.FC = () => {
+  const [activeQuote, setActiveQuote] = useState(0);
   return (
     <Box sx={{
       display: "flex",
@@ -16,6 +22,7 @@ const Page: React.FC = () => {
       alignItems: "center",
     }}>
       <StatusBar></StatusBar>
+      <QuoteBar quoteData={{ text: quoteData[activeQuote] }}></QuoteBar>
       <Statistics></Statistics>
 
     </Box>

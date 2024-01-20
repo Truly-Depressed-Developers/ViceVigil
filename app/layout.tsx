@@ -5,6 +5,7 @@ import {Navbar} from "@/components/Navbar/Navbar";
 import {LayoutWrapper} from "@/app/LayoutWrapper";
 import {Paper} from "@mui/material";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {

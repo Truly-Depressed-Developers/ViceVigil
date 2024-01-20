@@ -1,7 +1,8 @@
 'use client'
 
 import {createTheme, ThemeProvider} from "@mui/material/styles";
-import {Navbar} from "@/components/Navbar/Navbar";
+import { LocalizationProvider } from '@mui/x-date-pickers';
+import { AdapterMoment } from '@mui/x-date-pickers/AdapterMoment';
 
 const darkTheme = createTheme({
   palette: {
@@ -16,7 +17,9 @@ const LayoutWrapper = ({
 }>) => {
   return (
     <ThemeProvider theme={darkTheme}>
-      {children}
+      <LocalizationProvider dateAdapter={AdapterMoment}>
+        {children}
+      </LocalizationProvider>
     </ThemeProvider>
   );
 }

@@ -23,7 +23,7 @@ const AverageArticle: React.FC<{ params: IRouteParams }> = (props) => {
     }, [props.params.article]);
 
     return (
-        article === undefined ? <Loading /> :
+        article === undefined ? <span className={styles.loader}><Loading /></span> :
             <div id={styles.averageArticle}>
                 <div className={styles.button}>
                     <Button variant="text"><Link href="/articles"><ArrowBackIcon /></Link></Button>

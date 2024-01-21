@@ -1,23 +1,79 @@
 [
     {
         "id": 1,
-        "title": "Title",
-        "photoID": "2137",
-        "preview": "This is some simple text, that has to be cropped out so it's not the longest preview article in the world",
+        "category": "smoking",
+        "title": "What do cigarettes consist of?",
+        "photoID": "997",
         "link": "https://www.cleanrecoverycenters.com/addiction-why-cant-they-just-stop/"
     },
     {
         "id": 2,
-        "title": "Title",
-        "photoID": "69",
-        "preview": "This is some simple text, that has to be cropped out so it's not the longest preview article in the world",
+        "category": "smoking",
+        "title": "What motivates people to quit?",
+        "photoID": "997",
         "link": "https://www.helpguide.org/harvard/how-addiction-hijacks-the-brain.htm"
     },
     {
         "id": 3,
-        "title": "Title",
-        "photoID": "69",
-        "preview": "This is some simple text, that has to be cropped out so it's not the longest preview article in the world.",
+        "category": "smoking",
+        "title": "Why overcoming addiction is so difficult?",
+        "photoID": "997",
         "link": "https://recoverycarepartner.com/overcoming-addiction-difficult/"
+    },
+    {
+        "id": 4,
+        "category": "caffeine",
+        "title": "Is a coffee a day always needed?",
+        "photoID": "222",
+        "link": "https://www.quora.com/Is-it-safe-to-drink-coffee-all-day-long"
+    },
+    {
+        "id": 5,
+        "category": "caffeine",
+        "title": "How to be productive without coffee?",
+        "photoID": "222",
+        "link": "https://www.cnbc.com/2023/01/11/4-caffeine-free-ways-to-boost-your-energy.html"
+    },
+    {
+        "id": 6,
+        "category": "caffeine",
+        "title": "What are the drawbacks and benefits of coffee?",
+        "photoID": "222",
+        "link": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/"
+    },
+    {
+        "id": 9,
+        "category": "alcohol",
+        "title": "How much does alcohol cost You?",
+        "photoID": "32215",
+        "link": "https://www.alcoholhelp.com/alcohol/the-effects-of-alcohol-abuse/cost-of-alcoholism/"
+    },
+    {
+        "id": 10,
+        "category": "alcohol",
+        "title": "Where can You get proffessional help?",
+        "photoID": "32215",
+        "link": "https://www.mhanational.org/get-professional-help-if-you-need-it"
+    },
+    {
+        "id": 11,
+        "category": "alcohol",
+        "title": "See the world straight!",
+        "photoID": "32215",
+        "link": "https://www.quora.com/How-do-people-manage-to-drink-spirits-straight"
+    },
+    {
+        "id": 12,
+        "category": "social-media",
+        "title": "Limit Your screen time more effectively!",
+        "photoID": "2115",
+        "link": "https://knowadays.com/blog/7-simple-ways-to-reduce-your-screen-time/"
+    },
+    {
+        "id": 11,
+        "category": "social-media",
+        "title": "How much time can You save by not using social media?",
+        "photoID": "2115",
+        "link": "https://finance.yahoo.com/news/social-media-exodus-benefits-quitting-130000463.html"
     }
 ]

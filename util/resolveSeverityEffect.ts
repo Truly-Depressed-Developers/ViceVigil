@@ -3,34 +3,40 @@ import {SeverityLevel} from "@/types/SeverityLevel";
 
 const EFFECTS: Record<Addiction, Record<SeverityLevel, string>> = {
   [Addiction.drinking]: {
-    [SeverityLevel.none]: "drinking - none",
-    [SeverityLevel.low]: "drinking - low",
-    [SeverityLevel.medium]: "drinking - medium",
-    [SeverityLevel.high]: "drinking - high",
+    [SeverityLevel.none]: "None - no interaction with the user",
+    [SeverityLevel.low]: "Low - shows a reminder if user is detected to be under the influence",
+    [SeverityLevel.medium]: "Medium - ",
+    [SeverityLevel.high]: "High - ",
   },
   [Addiction.music]: {
-    [SeverityLevel.none]: "music - none",
-    [SeverityLevel.low]: "music - low",
-    [SeverityLevel.medium]: "music - medium",
-    [SeverityLevel.high]: "music - high",
+    [SeverityLevel.none]: "None - no interaction with the user",
+    [SeverityLevel.low]: "Low - ",
+    [SeverityLevel.medium]: "Medium - ",
+    [SeverityLevel.high]: "High - ",
   },
   [Addiction.smoking]: {
-    [SeverityLevel.none]: "smoking - none",
-    [SeverityLevel.low]: "smoking - low",
-    [SeverityLevel.medium]: "smoking - medium",
-    [SeverityLevel.high]: "smoking - high",
+    [SeverityLevel.none]: "None - no interaction with the user",
+    [SeverityLevel.low]: "Low - ",
+    [SeverityLevel.medium]: "Medium - ",
+    [SeverityLevel.high]: "High - ",
   },
   [Addiction.drugs]: {
-    [SeverityLevel.none]: "drugs - none",
-    [SeverityLevel.low]: "drugs - low",
-    [SeverityLevel.medium]: "drugs - medium",
-    [SeverityLevel.high]: "drugs - high",
+    [SeverityLevel.none]: "None - no interaction with the user",
+    [SeverityLevel.low]: "Low - ",
+    [SeverityLevel.medium]: "Medium - ",
+    [SeverityLevel.high]: "High - ",
   },
   [Addiction.energyDrinks]: {
-    [SeverityLevel.none]: "energy drinks - none",
-    [SeverityLevel.low]: "energy drinks - low",
-    [SeverityLevel.medium]: "energy drinks - medium",
-    [SeverityLevel.high]: "energy drinks - high",
+    [SeverityLevel.none]: "None - no interaction with the user",
+    [SeverityLevel.low]: "Low - ",
+    [SeverityLevel.medium]: "Medium - ",
+    [SeverityLevel.high]: "High - ",
+  },
+  [Addiction.doomScrolling]: {
+    [SeverityLevel.none]: "None - no interaction with the user",
+    [SeverityLevel.low]: "Low - shows warnings when recommended time is exceeded",
+    [SeverityLevel.medium]: "Medium - before certain apps open, there is now a timeout screen",
+    [SeverityLevel.high]: "High - closes certain apps if recommended time is exceeded",
   }
 }
 

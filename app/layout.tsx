@@ -4,6 +4,7 @@ import "./globals.scss";
 import {Navbar} from "@/components/Navbar/Navbar";
 import {LayoutWrapper} from "@/app/LayoutWrapper";
 import {Paper} from "@mui/material";
+import {Header} from "@/components/Header/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
     <LayoutWrapper>
       <html lang="en">
         <body className={inter.className}>
+          <Header />
           <Paper className="main">{children}</Paper>
           <Navbar />
         </body>

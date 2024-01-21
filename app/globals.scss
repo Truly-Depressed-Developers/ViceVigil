@@ -21,7 +21,7 @@ body {
 }
 
 .main {
-  height: calc(100% - 32px);
+  height: calc(100% - 32px - 57px);
   overflow-y: scroll;
   overflow-x: hidden;
   scrollbar-width: none;

@@ -16,9 +16,9 @@ const mockIntegrations: Integration[] = [
 ]
 
 const mockSeverity: Severity[] = [
-  {addiction: Addiction.alkohol, level: SeverityLevel.medium},
+  {addiction: Addiction.drinking, level: SeverityLevel.medium},
   {addiction: Addiction.music, level: SeverityLevel.low},
-  {addiction: Addiction.energizers, level: SeverityLevel.high},
+  {addiction: Addiction.energyDrinks, level: SeverityLevel.high},
 ]
 
 const Page: React.FC = () => {

@@ -5,18 +5,18 @@ import { Typography } from '@mui/material'
 
 const statusArray = [
     {
-        title: "Gratulujemy!",
-        text: "Twoje obecne wyniki wskazują, że oddalasz się od swoich uzależnień.",
+        title: "Congrats!",
+        text: "Your current score indicates that you are successfully overcoming your addictions",
         color: "#17302C"
     },
     {
-        title: "Ostrożnie!",
-        text: "Twoje obecne wyniki wskazują, że nie do końca starasz się wyłamać z uzależnień.",
+        title: "Be vary!",
+        text: "Your current score indicates that you are struggling with being clean",
         color: "#3E341B"
     },
     {
-        title: "Uwaga!",
-        text: "Twoje obecne wyniki wskazują, że bardziej pogłębiasz się niż oddalasz ze swoich uzależnień.",
+        title: "Attention!",
+        text: "Your current score indicates that you are coming back to your addictions",
         color: "#6C2928"
     },
 ]

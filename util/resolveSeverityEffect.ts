@@ -2,11 +2,11 @@ import {Addiction} from "@/types/Addiction";
 import {SeverityLevel} from "@/types/SeverityLevel";
 
 const EFFECTS: Record<Addiction, Record<SeverityLevel, string>> = {
-  [Addiction.alkohol]: {
-    [SeverityLevel.none]: "alkohol - none",
-    [SeverityLevel.low]: "alkohol - low",
-    [SeverityLevel.medium]: "alkohol - medium",
-    [SeverityLevel.high]: "alkohol - high",
+  [Addiction.drinking]: {
+    [SeverityLevel.none]: "drinking - none",
+    [SeverityLevel.low]: "drinking - low",
+    [SeverityLevel.medium]: "drinking - medium",
+    [SeverityLevel.high]: "drinking - high",
   },
   [Addiction.music]: {
     [SeverityLevel.none]: "music - none",
@@ -14,11 +14,11 @@ const EFFECTS: Record<Addiction, Record<SeverityLevel, string>> = {
     [SeverityLevel.medium]: "music - medium",
     [SeverityLevel.high]: "music - high",
   },
-  [Addiction.cigarettes]: {
-    [SeverityLevel.none]: "cigarettes - none",
-    [SeverityLevel.low]: "cigarettes - low",
-    [SeverityLevel.medium]: "cigarettes - medium",
-    [SeverityLevel.high]: "cigarettes - high",
+  [Addiction.smoking]: {
+    [SeverityLevel.none]: "smoking - none",
+    [SeverityLevel.low]: "smoking - low",
+    [SeverityLevel.medium]: "smoking - medium",
+    [SeverityLevel.high]: "smoking - high",
   },
   [Addiction.drugs]: {
     [SeverityLevel.none]: "drugs - none",
@@ -26,11 +26,11 @@ const EFFECTS: Record<Addiction, Record<SeverityLevel, string>> = {
     [SeverityLevel.medium]: "drugs - medium",
     [SeverityLevel.high]: "drugs - high",
   },
-  [Addiction.energizers]: {
-    [SeverityLevel.none]: "energizers - none",
-    [SeverityLevel.low]: "energizers - low",
-    [SeverityLevel.medium]: "energizers - medium",
-    [SeverityLevel.high]: "energizers - high",
+  [Addiction.energyDrinks]: {
+    [SeverityLevel.none]: "energy drinks - none",
+    [SeverityLevel.low]: "energy drinks - low",
+    [SeverityLevel.medium]: "energy drinks - medium",
+    [SeverityLevel.high]: "energy drinks - high",
   }
 }
 

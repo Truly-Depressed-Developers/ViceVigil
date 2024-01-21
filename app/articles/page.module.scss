@@ -1,16 +1,92 @@
 #articles {
     width: 100%;
     height: 100%;
-    background-color: red;
+    // background-color: red;
 
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
+    .titleBlock {
+        width: inherit;
+        height: 80px;
+        background-color: green;
 
-    overflow: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
 
-    &::-webkit-scrollbar {
-        display: none;
+    .mostWanted {
+        width: inherit;
+        height: 250px;
+        // background: rgb(0, 0, 0);
+        // background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%, rgba(0, 212, 255, 1) 100%);
+        // z-index: 1000;
+
+        z-index: 0;
+
+        .card {
+            z-index: 0;
+        }
+
+        .gradient {
+            width: 100%;
+            height: 220px;
+            // background: rgb(0, 0, 0);
+            background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%, rgba(0, 212, 255, 1) 100%);
+            z-index: 10000;
+            position: relative;
+            top: -220px;
+            left: 0;
+            border-radius: 10px;
+
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+
+        .mostWantedText {
+            position: relative;
+            top: -458px;
+            left: 0;
+            font-size: smaller;
+            color: gray;
+            z-index: 3000;
+        }
+
+        .mostWantedTitle {
+            position: relative;
+            top: -320px;
+            left: 20px;
+            color: white;
+            // text-shadow: 2px 2px black;
+            font-size: large;
+            width: 80%;
+            z-index: 10000;
+        }
+
+        .button {
+            position: relative;
+            top: -323px;
+            left: 8px;
+            z-index: 10000;
+        }
+    }
+
+    .articleList {
+        width: 100%;
+        height: calc(100% - 330px);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        background-color: orange;
+        margin-top: 10px;
+        overflow: auto;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
     }
 }

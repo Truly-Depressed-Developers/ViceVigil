@@ -12,18 +12,15 @@ import Link from '@mui/material/Link';
 export const SmolArticle: React.FC<ISmolArticle> = (articleData: ISmolArticle) => {
     return (
         <div className={styles.article}>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ width: 390, borderRadius: 3, display: "flex", flexDirection: "row", backgroundColor: "#1D1D1D" }}>
                 <CardMedia
-                    sx={{ height: 140 }}
+                    sx={{ height: 120, minWidth: 120 }}
                     image={"/articleImages/" + articleData.photoID + ".jpg"}
                     title="articlePhoto"
                 />
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
+                    <Typography gutterBottom component="div">
                         {articleData.title}
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        {articleData.preview}
                     </Typography>
                 </CardContent>
                 <CardActions>

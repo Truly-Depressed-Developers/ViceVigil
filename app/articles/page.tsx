@@ -7,7 +7,7 @@ const Article: React.FC = () => {
   return (
     <div id={styles.articles}>
       {articles.map((el, i) => {
-        return <SmolArticle key={i} id={el.id} title={el.title} preview={el.preview} photoID={el.photoID} />
+        return <SmolArticle key={i} id={el.id} title={el.title} photoID={el.photoID} />
       })}
     </div>
   );

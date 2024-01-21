@@ -15,7 +15,7 @@
 
     #averageArticleContentMain {
         overflow: hidden;
-        height: calc(100vh - 230px);
+        height: calc(100vh - 310px);
         // padding: 10px;
 
         #articleTitle {
@@ -32,7 +32,6 @@
             flex-direction: column;
             margin-top: 10px;
         }
-
     }
 
     overflow: auto;

@@ -6,6 +6,7 @@ import { BarChart } from '@mui/x-charts/BarChart';
 import { ArgumentAxis, BarSeries, Chart, Title, ValueAxis } from "@devexpress/dx-react-chart-material-ui";
 import { Palette } from '@devexpress/dx-react-chart';
 import Box from "@mui/material/Box";
+import { LabelType } from "@/types/Addiction";
 
 
 type DatailedInfo = {
@@ -14,7 +15,6 @@ type DatailedInfo = {
 }
 
 type DataStatistics = {
-    category: string,
     info: DatailedInfo[]
 
 }
@@ -24,13 +24,18 @@ export const StatisticsChart: React.FC<DataStatistics> = (statProps: DataStatist
     return (
 
         <Box>
-            <div>
-                <Chart height={230} data={statProps.info}>
-                    <ArgumentAxis />
-                    <ValueAxis showGrid={false} />
-                    <BarSeries color="#E65900" valueField="times" argumentField="label" />
-                </Chart>
-            </div>
+            {
+                statProps != null ?
+                    <div>
+                        <Chart height={230} data={statProps.info}>
+                            <ArgumentAxis />
+                            <ValueAxis showGrid={false} />
+                            <BarSeries color="#E65900" valueField="times" argumentField="label" />
+                        </Chart>
+                    </div>
+                    :
+                    null
+            }
 
         </Box>
         // </Paper>

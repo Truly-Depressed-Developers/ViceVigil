@@ -26,7 +26,6 @@ const Page: React.FC = () => {
       <Statistics></Statistics>
 
     </Box>
-
   );
 }
 

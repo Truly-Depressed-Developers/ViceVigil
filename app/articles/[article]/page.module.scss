@@ -1,0 +1,39 @@
+#averageArticle {
+    .button {
+        position: relative;
+        top: 0;
+        left: -13px;
+
+        ArrowBackIcon {
+            color: white;
+        }
+    }
+
+    .media {
+        margin-top: -44px;
+    }
+
+    #averageArticleContentMain {
+        overflow: hidden;
+        height: calc(100vh - 230px);
+        // padding: 10px;
+
+        #articleTitle {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+
+        #articleContent {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
+            margin-top: 10px;
+        }
+
+    }
+
+    overflow: auto;
+}

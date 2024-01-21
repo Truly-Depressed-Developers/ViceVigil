@@ -1,13 +1,18 @@
 .navbar {
-  height: 32px;
-  background-color: gray;
+  height: 50px;
+  background-color: #1D1D1D;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 
-
-  .item {
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .text {
+    font-size: 10px;
+    color: #929292;
   }
+
+  .blue {
+    font-size: 10px;
+    color: #018CFE;
+  }
+
 }

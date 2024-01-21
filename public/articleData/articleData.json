@@ -2,7 +2,7 @@
     {
         "id": 1,
         "category": "smoking",
-        "title": "What do cigs consist of?",
+        "title": "What do cigarettes consist of?",
         "photoID": "997",
         "link": "https://www.cleanrecoverycenters.com/addiction-why-cant-they-just-stop/"
     },
@@ -40,20 +40,6 @@
         "title": "What are the drawbacks and benefits of coffee?",
         "photoID": "222",
         "link": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/"
-    },
-    {
-        "id": 7,
-        "category": "energy-drink",
-        "title": "What do exactly energy drinks consist of?",
-        "photoID": "666",
-        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2966367/"
-    },
-    {
-        "id": 8,
-        "category": "energy-drink",
-        "title": "Are energy drinks really necessary?",
-        "photoID": "666",
-        "link": "https://www.nccih.nih.gov/health/energy-drinks"
     },
     {
         "id": 9,

@@ -12,7 +12,7 @@ import Link from '@mui/material/Link';
 export const SmolArticle: React.FC<ISmolArticle> = (articleData: ISmolArticle) => {
     return (
         <div className={styles.article}>
-            <Card sx={{ width: 390, borderRadius: 3, display: "flex", flexDirection: "row" }}>
+            <Card sx={{ width: 390, borderRadius: 3, display: "flex", flexDirection: "row", backgroundColor: "#1D1D1D" }}>
                 <CardMedia
                     sx={{ height: 120, minWidth: 120 }}
                     image={"/articleImages/" + articleData.photoID + ".jpg"}

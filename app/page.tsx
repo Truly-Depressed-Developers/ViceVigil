@@ -15,7 +15,7 @@ const quoteData = [
   '"text2"'
 ];
 
-const addictions: AppState = [
+export const addictions: AppState = [
   {
     addiction: Addiction.drinking,
     data: [
@@ -44,7 +44,18 @@ const addictions: AppState = [
       { date: "13-01-2024", times: 2 },
     ]
   },
-
+  {
+    addiction: Addiction.music,
+    data: []
+  },
+  {
+    addiction: Addiction.energyDrinks,
+    data: []
+  },
+  {
+    addiction: Addiction.drugs,
+    data: []
+  },
 ];
 
 let streaksDataDefault: eachStreakType[] = [

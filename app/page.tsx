@@ -9,7 +9,7 @@ import React, { useEffect, useState } from 'react';
 // import { useState } from 'react';
 
 const quoteData = [
-  '"Sukces to suma małych wysiłków, powtarzanych dzień po dniu."',
+  '"Success is the sum of small efforts – repeated day in and day out."',
   '"text2"'
 ];
 
@@ -17,11 +17,11 @@ const quoteData = [
 let streaksDataDefault: eachStreakType[] = [
   {
     streak: 12,
-    type: "Not drinking alcohol"
+    type: "Not drinking"
   },
   {
     streak: 10,
-    type: "Not smoking cigarettes"
+    type: "Not smoking"
   },
   {
     streak: 8,
@@ -29,7 +29,7 @@ let streaksDataDefault: eachStreakType[] = [
   },
   {
     streak: 3,
-    type: "Not drinking energizers"
+    type: "Not drinking energy drinks"
   },
   {
     streak: 3,
@@ -44,6 +44,7 @@ const Page: React.FC = () => {
     console.log(streaksData);
     setStreaksData(streaksData);
   }, [streaksData])
+
   const [activeQuote, setActiveQuote] = useState(0);
   return (
     <Box sx={{

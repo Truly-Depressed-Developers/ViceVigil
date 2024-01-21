@@ -1,7 +1,7 @@
 export enum Addiction {
-  alkohol= "alkohol",
-  cigarettes = "cigarettes",
+  drinking= "drinking",
+  smoking = "smoking",
   music = "music",
-  energizers = "energizers",
+  energyDrinks = "energy drinks",
   drugs = "drugs"
 }

@@ -1,6 +1,6 @@
 'use client'
 
-import {Accordion, AccordionDetails, AccordionSummary, AccordionActions, Button } from "@mui/material";
+import {Accordion, AccordionDetails, AccordionSummary, AccordionActions, Button, Typography} from "@mui/material";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 type Props<T> = T & {expanded: boolean, onClick: () => void};
@@ -13,15 +13,15 @@ const SettingsGroupItem = <T extends Record<string, any>>(props: Props<T>) => {
           expandIcon={<ExpandMoreIcon/>}
           onClick={() => props.onClick()}
         >
-          {props.name}
+          <Typography sx={{color: "#bbb"}}>{props.name}</Typography>
         </AccordionSummary>
 
         <AccordionDetails>
-          {props.description}
+          <Typography sx={{color: "#bbb"}}>{props.description}</Typography>
         </AccordionDetails>
 
         <AccordionActions>
-          <Button color="error">Remove</Button>
+          <Button color="error" variant="outlined">Remove</Button>
         </AccordionActions>
       </Accordion>
     </div>

@@ -3,5 +3,6 @@ export enum Addiction {
   smoking = "smoking",
   music = "music",
   energyDrinks = "energy drinks",
-  drugs = "drugs"
+  drugs = "drugs",
+  doomScrolling = "doom scrolling",
 }
